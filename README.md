@@ -1,4 +1,4 @@
-# PokemonsDex
+# PokemansDex
 
 A Flutter application that demonstrates modern state management using Riverpod, featuring a clean architecture approach to display Pokemon data from the PokeAPI.
 
@@ -36,7 +36,6 @@ The application follows a clean architecture pattern with:
 
 ## Screenshots
 
-[Add your screenshots here]
 
 ## Contributing
 
