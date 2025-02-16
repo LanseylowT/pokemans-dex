@@ -22,13 +22,15 @@ A Flutter application that demonstrates modern state management using Riverpod, 
 
 ## Project Structure
 
-lib/
-├── controllers/ # Business logic
-├── models/ # Data models
-├── providers/ # State management
-├── service/ # External services
-├── widgets/ # UI components
-└── main.dart # Application entry
+```
+📁 lib/
+ ├─📁 controllers/    # Business logic
+ ├─📁 models/         # Data models
+ ├─📁 providers/      # State management
+ ├─📁 service/        # External services
+ ├─📁 widgets/        # UI components
+ └─📄 main.dart       # Application entry
+```
 
 ## Getting Started
 
