@@ -10,7 +10,7 @@ A Flutter application that demonstrates modern state management using Riverpod, 
 - Clean architecture with Riverpod state management
 - Responsive UI with loading states
 
-## Technologies Used
+## Tech Stack
 
 - Flutter
 - Riverpod for state management
@@ -20,22 +20,55 @@ A Flutter application that demonstrates modern state management using Riverpod, 
 - Google Fonts for typography
 - Skeletonizer for loading states
 
+## Project Structure
+
+lib/
+├── controllers/ # Business logic
+├── models/ # Data models
+├── providers/ # State management
+├── service/ # External services
+├── widgets/ # UI components
+└── main.dart # Application entry
+
 ## Getting Started
 
-1. Clone the repository
+1. Clone the repository: `git clone https://github.com/LanseylowT/pokemans-dex.git`
 2. Run `flutter pub get` to install dependencies
 3. Run `flutter run` to start the application
 
-## Architecture
+## Project Architecture
 
 The application follows a clean architecture pattern with:
-- Models for data structures
-- Controllers for business logic
-- Providers for state management
-- Services for API and database operations
+
+### Providers
+
+- `pokemanDataProvider`: Fetches individual Pokemon data
+- `favoritePokemansProvider`: Manages favorite Pokemon list
+
+### Controllers
+
+- `HomePageController`: Handles Pokemon list pagination and state
+
+### Services
+
+- `HTTPService`: API communication
+- `DatabaseService`: Local storage management
+
+### Widgets
+
+- `PokemanCard`: Displays Pokemon in grid view
+- `PokemanListTile`: Shows Pokemon in list view
+- `PokemanStatsCard`: Pokemon statistics dialog
+
+## Code Documentation
+
+For detailed documentation, see the inline documentation in each file:
+
+- `/lib/providers/` - State management
+- `/lib/controllers/` - Business logic
+- `/lib/widgets/` - UI components
 
 ## Screenshots
-
 
 ## Contributing
 
